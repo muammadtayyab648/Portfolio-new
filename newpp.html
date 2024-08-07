@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+  
+    ?\<link rel="stylesheet" href="newpp.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('btncv3').addEventListener('click', function() {
+                // URL to the PNG file
+                const fileUrl = 'RESUME&TAYYABB.png';
+                
+                // Open the image in a new tab
+                window.open(fileUrl, '_blank');
+            });
+        });
+
+       
+    document.addEventListener('DOMContentLoaded', function() {
+        const circularProgressElements = document.querySelectorAll('.circular-progress');
+
+        circularProgressElements.forEach(el => {
+            const progress = el.getAttribute('data-progress');
+            const deg = (progress / 100) * 360;
+            el.style.setProperty('--progress', `${deg}deg`);
+        });
+    });
+
+
+        </script>
+
+</head>
+<body>
+
+    <div class="home-section">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" id="logo">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  
+                    <a id="btncv"  href="#contact">Contact Me</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    <!-- navbar -->
+
+
+
+
+    <!-- home content -->
+ 
+        <!-- home content -->
+<div class="home">
+    <div class="content">
+        <h4>Hi, I'm Muhammad Tayyab</h4>
+        <h3><span>Frontend Web Developer</span> </h3>
+        <h2 class="changecontent"> Welcome to my portfolio website. Here you can find my work and contact me.        </h2>
+        <p></p>
+        <div><br></div>
+        <a id="btncv2" href="#about">More About Me</a>
+    </div>
+    <div class="img-container">
+    <img src="picR-removebg-preview.jpg" alt="img"/>
+    </div>
+</div>
+<!-- home content -->
+    </div>
+    <!-- home section -->
+    
+
+    <!-- about -->
+    <div id="about">
+        <div class="container"  data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="row" id="about_con">
+                <div class="col-md-2 py-3 py-md-0 ml-10">
+                    <div class="card">
+                        <img src="picR-removebg-preview.jpg" alt="">
+                    </div>
+                </div>
+                <div id="about_text"class="col-md-8 py-3 py-md-0">
+                    <h3>About Me</h3>
+                    <h5>Frontend Web Developer</h5>
+                    <p>I am a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React. I specialize in creating dynamic, responsive user interfaces and have a keen eye for design. With a commitment to continuous learning, I strive to stay updated with industry trends and best practices. My goal is to build engaging, user-friendly web applications that enhance user experience and drive business success.</p>
+                    <h2>Name: <span>Muhammad Tayyab</span></h2>
+                    <!-- <h2>DOB: <span> September 01,2004</span></h2> -->
+                    <h2>Email: <span>mtyyb648@gmail.com</span></h2>
+                    <h2>From: <span>Islamabad, Pakistan</span></h2>
+                    <div id="social-link1">
+                        <i class="fa-brands fa-facebook-f" style="color: rgb(52, 85, 148); margin-top: 4px "></i>
+                        <a href="https://github.com/muammadtayyab648" target="_blank">
+                        <i class="fa-brands fa-github" style="color: black;  margin-top: 4px "></i>
+                        </a>
+                        <a href="www.linkedin.com/in/muhammad-tayyab-832195229" target="_blank">
+                            <i class="fa-brands fa-linkedin" style="color: #0a66c2; ;"></i>
+                        </a>
+                        <i class="fa-brands fa-instagram" style="color: rgb(230, 41, 104);  margin-top: 4px  "></i>
+                    </div>
+                    <button id="btncv3">VIEW MY CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Services</h3>
+            <p>Offering a diverse range of development services to meet your needs. Check out the solutions I provide below:</p>
+            <div id="service_box" class="row" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-laptop" style="color: #048181;"></i>
+                        <h2>Web Development</h2>
+                        <p>Designing and developing responsive, user-friendly websites with a focus on functionality and aesthetics.</p>
+                  <br>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-mobile-screen" style="color: black;"></i>
+                        <h2>Frontend Web Development</h2>
+                        <p>Designing and developing responsive, user-friendly websites with a focus on functionality and aesthetics.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-brands fa-bootstrap" style="color: #563d7c;"></i>
+                        <h2>Bootstrap <br> Web Design</h2>
+                        <p>Creating modern, responsive web designs using Bootstrap to ensure compatibility across all devices and browsers.</p>
+                       
+                    </div>
+                </div>
+               
+               
+            </div>
+    
+            <div id="service_box" class="row" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+               
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-brands fa-wordpress" style="color: #00749c;"></i>
+                        <h2>WordPress <br> Development</h2>
+                        <p>Building and customizing WordPress websites to fit your brand’s needs, including themes and plugins development.</p>
+                    </div>
+                </div>
+               
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-brands fa-java" style="color: rgba(255, 217, 0);"></i>
+                        <h2>JavaScript <br> Development</h2>
+                        <p>Developing interactive and dynamic web applications using JavaScript to enhance functionality and user engagement.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-brands fa-php" style="color: #474a8a;"></i>
+                        <h2> Development</h2>
+                        <p>Developing dynamic and scalable web applications  to meet complex business requirements.</p>
+                   <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- services -->
+
+    <!-- resume -->
+    <div id="resume">
+        <div class="container"  data-aos="fade-up"
+        data-aos-duration="1500">
+            <h5 class="text-center">RESUME</h5>
+            <h1 class="text-center">Awesome Journey</h1>
+            <div class="container">
+                <div class="hr" style="margin-top: 25px;"></div>
+            </div>
+            <br> 
+           <div class="row" >
+                <div class="col-md-5 py-1 py-md-0" id="edu" >
+                    <h2><i class="fa-solid fa-graduation-cap"></i>Education</h2>
+                    <br>
+                    <h5>BS Computer Engineering</h5>
+                    <p>Comsats University Islamabad</p>
+                    <i  id="res_date" class="fa-solid fa-building">  2019 - 2024</i>    
+                    <h5>Intermediate</h5>
+                    <p>HCCS Educational System, Rawalpindi</p>
+                    <i id="res_date" class="fa-solid fa-building"> 2017 - 2019</i> 
+                    <h5>Matriculation</h5>
+                    <p>Army Public School, EME Campus, Rawalpindi</p>
+                    <i id="res_date" class="fa-solid fa-building">  2015 - 2016</i> 
+
+                </div>
+
+                <div class="col-md-6 py-1 py-md-0 " id="edu2" >
+                    <h2><i class="fa-solid fa-briefcase"></i>Professional Experience</h2>
+                    <br>
+                    <h5>Inlights Solutions pvt-limited</h5>
+                    <p>I completed an internship at Inlights Solutions Pvt Limited, where I focused on developing my frontend web development skills, including proficiency in HTML, CSS, JavaScript, and React.</p>
+                    <i id="res_date" class="fa-solid fa-building"> 2024</i>
+                    <h5>LearnObots pvt-limited</h5>
+                    <p>I completed an internship at Learnobots NUST Islamabad, where I served as an Assistant STEM Trainer, gaining valuable experience in teaching and facilitating STEM education.
+
+                    </p>
+                    <i id="res_date" class="fa-solid fa-building"> 2024</i>
+                  <br>
+                </div>
+                <div class="hr" style="margin-top: 25px; margin-left: 530px;"></div>
+            </div>
+        
+    </div>
+    <!-- resume -->
+
+
+    <section id="skills">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Skills</h3>
+            <p>Here are some of the technical skills and strengths.</p>
+            <div class="row">
+                <!-- Technical Skills -->
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h5>HTML</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>CSS</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 85%;">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>JavaScript</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>ReactJS</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 75%;">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>Bootstrap</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 75%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>Python</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h5>WordPress</h5>
+                        <div class="progress" id="prog">
+                            <div id="prog_bar" class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Strengths -->
+                <div class="col-md-6">
+                    <div class="strength-row">
+                        <div class="strength">
+                            <h5>Problem Solving</h5>
+                            <div class="circular-progress" data-progress="90"></div>
+                        </div>
+                        <div class="strength">
+                            <h5>Communication</h5>
+                            <div class="circular-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="strength-row">
+                        <div class="strength">
+                            <h5>Teamwork</h5>
+                            <div class="circular-progress" data-progress="80"></div>
+                        </div>
+                        <div class="strength">
+                            <h5>Creativity</h5>
+                            <div class="circular-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="strength-row">
+                        <div class="strength">
+                            <h5>Adaptability</h5>
+                            <div class="circular-progress" data-progress="80"></div>
+                        </div>
+                        <div class="strength">
+                            <h5>Collaboration</h5>
+                            <div class="circular-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <!-- portfolio -->
+<div id="portfolio">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <h1 class="text-center">My Work</h1>
+        <p class="text-center">Check out some of my best projects below!</p>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="landingpage.jpg" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsive Landing Page</h5>
+                        <p class="card-text">Specializing in creating responsive and visually appealing landing pages that enhance user engagement and deliver a seamless web experience.</p>
+                        <a href="https://github.com/muammadtayyab648/Responsive-Landing-Page" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="stopwatch.JPG" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">StopWatch Web Application</h5>
+                        <p class="card-text">Developed a functional and user-friendly stopwatch web application using HTML, CSS, and JavaScript, showcasing precise time tracking and an intuitive interface.</p>
+                        <a href="https://github.com/muammadtayyab648/Stopwatch-Web-Application" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="weatherapp.JPG" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">Created an interactive weather application using HTML, CSS, and JavaScript, delivering real-time weather updates and forecasts with a user-friendly interface.</p>
+                        <a href="https://github.com/webdevartist12?tab=repositories" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="tictactoegame.JPG" alt="Project 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic-Tac-Toe Game</h5>
+                        <p class="card-text">Built an engaging Tic-Tac-Toe game using HTML, CSS, and JavaScript, featuring intuitive gameplay and a responsive design.</p>
+                        <a href="https://github.com/muammadtayyab648/Tic-Tac-Toe-game" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="p5.jpg" alt="Project 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Codex Validation</h5>
+                        <p class="card-text">Codex Validation Group website delivering professional validation services. Built using Wordpress.</p>
+                        <a href="https://github.com/yourusern" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="pj_card">
+                    <img id="pj_img" src="p6.jpg" alt="Project 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Mississauga Decks & Trim</h5>
+                        <p class="card-text">Mississauga Decks & Trim website designed to showcase best decking and trim services. Built using Wordpress.</p>
+                        <a href="https://github.com/yourusername" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+
+
+
+
+
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container" style="padding-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+            <div class="row">
+                <div class="col-md-7 py-3 py-md-0">
+                    <h1>Contact Me</h1>
+                    <p>Feel free to reach out to me for any inquiries, collaborations</p>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea cols="50" rows="3" placeholder="Message"></textarea>
+                    <br>
+                    <button id="btncontact">Send</button>
+                </div>
+                <div  class="col-md-5 py-3 py-md-0">
+                    <h1>Info</h1>
+                    <p>If you need to get in touch quickly, here’s my contact information:</p>
+                    <i  id="contact_info" class="fa-solid fa-envelope"><span>mtyyb68@gmail.com</span></i><br> 
+                    <i id="contact_info" class="fa-solid fa-phone"><span> +92 3171542648</span></i><br>
+                    <i  id="contact_info" class="fa-solid fa-house"><span> Islamabad, Pakistan</span></i>
+
+                    <div class="social-links">
+                        <i class="fa-brands fa-facebook-f" style="color: rgb(52, 85, 148); margin-top: 4px;"></i>
+                        <a href="https://github.com/muammadtayyab648" target="_blank">
+                        <i class="fa-brands fa-github" style="color: black; margin-top: 4px;"></i>
+                       </a>
+                        <a href="https://www.linkedin.com/in/muhammad-tayyab-832195229/" target="_blank">
+                            <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
+                        </a>
+                        <i class="fa-brands fa-instagram" style="color: rgb(230, 41, 104); margin-top: 4px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+
+
+
+
+
+
+    <!-- footer -->
+<footer id="footer">
+    <h1 class="text-center" id="heading">Portfolio</h1>
+    <p class="text-center">Welcome to my portfolio! I am a passionate web application developer dedicated to creating efficient solutions.</p>
+    <div id="icons">
+        <i class="fa-brands fa-facebook-f" style="color: rgb(52, 85, 148);"></i>
+        <i class="fa-brands fa-github" style="color: gray;"></i>
+        <a href="https://www.linkedin.com/in/muhammad-tayyab-832195229/" target="_blank">
+            <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
+        </a>
+        <i class="fa-brands fa-instagram" style="color: rgb(230, 41, 104);"></i>
+    </div>
+    <div class="copyright text-center">
+        &copy; 2024 <strong>Muhammad Tayyab' Portfolio</strong>. All Rights Reserved.
+    </div>
+    <div class="credite text-center">
+        Designed By <a href="#">TAYYAB</a>
+    </div>
+</footer>
+<!-- footer -->
+
+
+
+    <a href="#" class="arrow"><i class="fa-solid fa-arrow-up" style="font-size: 30px;"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
